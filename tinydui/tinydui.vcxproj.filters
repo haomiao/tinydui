@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{e5b61fb3-020b-493f-93e7-bddae5446b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{a89744ac-e40d-479f-be8b-e49835d09dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widget">
+      <UniqueIdentifier>{69609636-075c-4b60-9ffe-684e07bf6e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{53c86210-eaab-4878-b65b-39234284bed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layout">
+      <UniqueIdentifier>{0590792b-0f85-4470-a555-19c801df869a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\kwindowbase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\kmenuwnd.cpp">
+      <Filter>widget</Filter>
+    </ClCompile>
+    <ClCompile Include="base\kmessagemapwnd.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\kpopuptipwnd.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ksystemutil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="base\kctrluibase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\kuihandlercallback.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kstaticui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kbuttonui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kcheckboxui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kcomboboxui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\khypertextui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kimagecheckboxui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kspacerui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kspringcheckboxui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\kwndhandleui.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="base\khorizontalcontainerwnd.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\kverticalcontainerwnd.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\kwindowbase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="widget\kmenuwnd.h">
+      <Filter>widget</Filter>
+    </ClInclude>
+    <ClInclude Include="base\kmessagemapwnd.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\kpopuptipwnd.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\kuidefine.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ksystemutil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinydui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\kctrluibase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\kuihandlercallback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kstaticui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kbuttonui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kcheckboxui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kcomboboxui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\khypertextui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kimagecheckboxui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kspacerui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kspringcheckboxui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\kwndhandleui.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="base\khorizontalcontainerwnd.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\kverticalcontainerwnd.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="kpch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
